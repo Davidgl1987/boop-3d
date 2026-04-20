@@ -22,7 +22,7 @@ export function Piece({ piece, worldPosition }: PieceProps) {
   const animatedPos = useRef(
     new THREE.Vector3(worldPosition[0], restY + 5, worldPosition[2]),
   );
-  const animatedScale = useRef(PIECE_SCALE[piece.size]);
+  const animatedScale = useRef(PIECE_SCALE[piece.size] as number);
 
   useEffect(() => {
     const anim = animCtxRef.current?.animMap.get(piece.id);

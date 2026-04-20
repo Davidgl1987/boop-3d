@@ -1,42 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-.title {
-  height: 16rem;
-}
-.bg-container {
-  background-image: url("/background.jpg");
-}
-.board-bg {
-  background: url("/board.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 1rem 1.5rem;
-}
-.text-stroke {
-  text-shadow: 0.1rem 0.1rem 0 white, -0.1rem -0.1rem 0 white,
-    0.1rem -0.1rem 0 white, -0.1rem 0.1rem 0 white, 0.1rem 0.1rem 0 white;
-}
-.text-stroke-xl {
-  text-shadow: 0.3rem 0.3rem 0 white, -0.3rem -0.3rem 0 white,
-    0.3rem -0.3rem 0 white, -0.3rem 0.3rem 0 white, 0.3rem 0.3rem 0 white;
-}
-.left-sm {
-  background: url("/kitties.png");
-  background-size: cover;
-}
-.left-lg {
-  background: url("/cats.png");
-  background-size: cover;
-}
-.right-sm {
-  background: url("/kitties.png");
-  background-size: cover;
-  background-position-x: right;
-}
-.right-lg {
-  background: url("/cats.png");
-  background-size: cover;
-  background-position-x: right;
+#root {
+  height: 100vh;
 }
